@@ -1,0 +1,6 @@
+name,email,opened_email,visited_site,filled_form,company,phone,score,status
+Alice Johnson,alice@gmail.com,True,True,True,TechCorp,9801234567,100,Hot
+David Brown,david@gmail.com,True,True,False,MarketPro,9809876543,70,Hot
+Emma Davis,emma@gmail.com,False,True,True,CodeBase,9803456789,70,Hot
+Frank Miller,frank@gmail.com,True,True,True,SalesForce,9805678901,100,Hot
+Iris Nepal,iris@gmail.com,True,True,True,NepTech,9801111111,100,Hot

@@ -1,0 +1,11 @@
+name,email,opened_email,visited_site,filled_form,company,phone,score,status
+Alice Johnson,alice@gmail.com,True,True,True,TechCorp,9801234567,100,Hot
+Bob Smith,bob@gmail.com,True,False,False,StartupX,9807654321,30,Cold
+Carol White,carol@gmail.com,False,False,False,DesignHub,9812345678,0,Cold
+David Brown,david@gmail.com,True,True,False,MarketPro,9809876543,70,Hot
+Emma Davis,emma@gmail.com,False,True,True,CodeBase,9803456789,70,Hot
+Frank Miller,frank@gmail.com,True,True,True,SalesForce,9805678901,100,Hot
+Grace Lee,grace@gmail.com,False,False,False,CreativeX,9806789012,0,Cold
+Henry Wilson,henry@gmail.com,True,False,True,DevShop,9804567890,60,Warm
+Iris Nepal,iris@gmail.com,True,True,True,NepTech,9801111111,100,Hot
+James Rai,james@gmail.com,False,True,False,HimaTech,9802222222,40,Warm
