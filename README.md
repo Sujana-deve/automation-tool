@@ -1,10 +1,10 @@
-# 📊 Marketing Automation Pipeline
+#  Marketing Automation Pipeline
 
 A Python automation tool that scores leads, filters them by priority,
 and generates a clean HTML report — built to simulate real-world
 sales automation workflows.
 
-## 🚀 Features
+##  Features
 
 - Reads lead data from CSV
 - Automatically scores each lead based on their activity
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 3. Run the pipeline
 python main.py
 
-## 📊 How Lead Scoring Works
+##  How Lead Scoring Works
 
 | Activity | Points |
 |---|---|
@@ -64,6 +64,5 @@ python main.py
 | 0 - 39 | ❄️ Cold |
 
 ## 👩‍💻 Author
+Sujana sharma
 
-Sujana — Computer Engineering Student at GCES Lamachaur
-Built as part of a Python Developer Internship preparation project.
