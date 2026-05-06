@@ -24,6 +24,7 @@ def generate_report(df, summary):
             <td>{row['company']}</td>
             <td>{row['phone']}</td>
             <td>{row['score']}</td>
+            <td>{row['score_reason']}</td>
             <td>{badge}</td>
         </tr>"""
 
@@ -135,6 +136,7 @@ def generate_report(df, summary):
                     <th>Company</th>
                     <th>Phone</th>
                     <th>Score</th>
+                    <th>Score Reason</th>
                     <th>Status</th>
                 </tr>
             </thead>

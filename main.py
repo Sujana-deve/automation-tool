@@ -26,8 +26,12 @@ def run_pipeline():
     warm = df[df["status"] == "Warm"]
     cold = df[df["status"] == "Cold"]
     hot.to_csv("data/hot_leads.csv", index=False)
+    warm.to_csv("data/warm_leads.csv", index=False)
+    cold.to_csv("data/cold_leads.csv", index=False)
     print("   Scored data saved to data/scored_leads.csv")
     print("   Hot leads saved to data/hot_leads.csv")
+    print("   Warm leads saved to data/warm_leads.csv")
+    print("   Cold leads saved to data/cold_leads.csv")
 
     # Step 4: Print summary
     summary = get_summary(df)
