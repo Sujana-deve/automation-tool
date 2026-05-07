@@ -1,0 +1,4 @@
+name,email,opened_email,visited_site,filled_form,company,phone,score,score_reason,status
+Bob Smith,bob@gmail.com,True,False,False,StartupX,9807654321,30,Opened email,Cold
+Carol White,carol@gmail.com,False,False,False,DesignHub,9812345678,0,No activity,Cold
+Grace Lee,grace@gmail.com,False,False,False,CreativeX,9806789012,0,No activity,Cold

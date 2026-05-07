@@ -1,0 +1,3 @@
+name,email,opened_email,visited_site,filled_form,company,phone,score,score_reason,status
+Henry Wilson,henry@gmail.com,True,False,True,DevShop,9804567890,60,Opened email · Filled form,Warm
+James Rai,james@gmail.com,False,True,False,HimaTech,9802222222,40,Visited site,Warm

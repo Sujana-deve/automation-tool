@@ -1,3 +1,4 @@
+import os
 from datetime import datetime
 
 def generate_report(df, summary):
@@ -49,9 +50,7 @@ def generate_report(df, summary):
                 background: #f5f5f5;
                 color: #333;
             }}
-            h1 {{
-                color: #1a237e;
-            }}
+            h1 {{ color: #1a237e; }}
             .date {{
                 color: #888;
                 font-size: 14px;
@@ -70,15 +69,8 @@ def generate_report(df, summary):
                 background: white;
                 box-shadow: 0 2px 8px rgba(0,0,0,0.08);
             }}
-            .card h2 {{
-                font-size: 36px;
-                margin: 0;
-            }}
-            .card p {{
-                margin: 6px 0 0;
-                color: #666;
-                font-size: 14px;
-            }}
+            .card h2 {{ font-size: 36px; margin: 0; }}
+            .card p {{ margin: 6px 0 0; color: #666; font-size: 14px; }}
             .hot {{ border-top: 4px solid #2e7d32; }}
             .warm {{ border-top: 4px solid #f57f17; }}
             .cold {{ border-top: 4px solid #b71c1c; }}
@@ -148,6 +140,7 @@ def generate_report(df, summary):
     </html>
     """
 
+    os.makedirs("reports", exist_ok=True)
     filename = f"reports/report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
     with open(filename, "w", encoding="utf-8") as f:
         f.write(html)
