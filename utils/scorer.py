@@ -1,30 +1,48 @@
 import pandas as pd
+from datetime import datetime
+
+def decay_multiplier(date_str, half_life_days=30):
+    """Recent actions score higher. Score halves every 30 days."""
+    if not date_str or pd.isna(date_str):
+        return 0
+    action_date = datetime.strptime(str(date_str), "%Y-%m-%d")
+    days_ago = (datetime.now() - action_date).days
+    return max(0.1, 0.5 ** (days_ago / half_life_days))
 
 def score_leads(df):
     def score_lead(row):
         score = 0
-        if row["opened_email"] == True:
-            score += 30
-        if row["visited_site"] == True:
-            score += 40
-        if row["filled_form"] == True:
-            score += 30
-        return score
+        # Base weights: form fill is strongest signal
+        if row["filled_form"]:
+            score += 50 * decay_multiplier(row.get("filled_form_date"))
+        if row["visited_site"]:
+            score += 35 * decay_multiplier(row.get("visited_site_date"))
+        if row["opened_email"]:
+            score += 15 * decay_multiplier(row.get("opened_email_date"))
+
+        # Compound bonus: multiple actions = more intent
+        actions = sum([row["opened_email"], row["visited_site"], row["filled_form"]])
+        if actions == 3:
+            score *= 1.2
+        elif actions == 2:
+            score *= 1.1
+
+        return round(min(score, 100), 1)  # cap at 100
 
     def score_reason(row):
         reasons = []
-        if row["opened_email"] == True:
-            reasons.append("Opened email")
-        if row["visited_site"] == True:
-            reasons.append("Visited site")
-        if row["filled_form"] == True:
+        if row["filled_form"]:
             reasons.append("Filled form")
+        if row["visited_site"]:
+            reasons.append("Visited site")
+        if row["opened_email"]:
+            reasons.append("Opened email")
         return " · ".join(reasons) if reasons else "No activity"
 
     def label_lead(score):
         if score >= 70:
             return "Hot"
-        elif score >= 40:
+        elif score >= 35:
             return "Warm"
         else:
             return "Cold"
@@ -41,4 +59,5 @@ def get_summary(df):
         "hot": len(df[df["status"] == "Hot"]),
         "warm": len(df[df["status"] == "Warm"]),
         "cold": len(df[df["status"] == "Cold"]),
+        "avg_score": round(df["score"].mean(), 1),
     }

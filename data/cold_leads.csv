@@ -1,4 +1,128 @@
-name,email,opened_email,visited_site,filled_form,company,phone,score,score_reason,status
-Bob Smith,bob@gmail.com,True,False,False,StartupX,9807654321,30,Opened email,Cold
-Carol White,carol@gmail.com,False,False,False,DesignHub,9812345678,0,No activity,Cold
-Grace Lee,grace@gmail.com,False,False,False,CreativeX,9806789012,0,No activity,Cold
+name,email,company,job_title,phone,opened_email,visited_site,filled_form,opened_email_date,visited_site_date,filled_form_date,score,score_reason,status
+Maria Davis,laurathomas@example.net,Waters-Powell,"Lecturer, higher education",001-563-364-1452x0304,True,True,False,2026-04-11,2026-05-05,,34.7,Visited site · Opened email,Cold
+Mrs. Patricia Thomas PhD,dmacias@example.com,Smith Group,Film/video editor,3816853973,False,True,False,,2026-05-17,,33.4,Visited site,Cold
+Thomas Kirk,maryfoley@example.com,"Brewer, King and Hull","Engineer, maintenance (IT)",937-429-0344,True,True,False,2026-05-17,2026-04-15,,33.3,Visited site · Opened email,Cold
+Amy Savage,tatkins@example.org,"Dixon, Peters and Ballard",Sales promotion account executive,(847)549-9453x5123,True,True,False,2026-03-12,2026-05-07,,32.6,Visited site · Opened email,Cold
+Joseph Ellis,beth50@example.com,"Sandoval, White and White",Merchant navy officer,4628277697,False,False,True,,,2026-04-30,32.2,Filled form,Cold
+Colton Thompson,barreracharles@example.org,Gonzales PLC,Economist,001-237-692-1697x02051,False,True,False,,2026-05-14,,31.2,Visited site,Cold
+Nathaniel Riddle,andrewlittle@example.org,Grant Group,Dance movement psychotherapist,993.370.3751,True,True,False,2026-05-11,2026-04-14,,30.9,Visited site · Opened email,Cold
+Steven Kennedy,fwright@example.org,Cannon-Rivera,"Conservator, museum/gallery",293-963-1227x74494,False,False,True,,,2026-04-27,30.1,Filled form,Cold
+Karen Edwards,crossjoshua@example.net,Leon-Taylor,Broadcast journalist,237-671-8055,True,True,False,2026-03-03,2026-05-04,,30.0,Visited site · Opened email,Cold
+Julie Kelly,karen01@example.net,"Fitzgerald, Brown and Holland",Further education lecturer,257.487.0184,False,False,True,,,2026-04-26,29.4,Filled form,Cold
+Kevin Hunter DDS,opearson@example.org,Thompson-Day,Community arts worker,270.398.8654,True,True,False,2026-03-24,2026-04-30,,29.3,Visited site · Opened email,Cold
+Jaclyn Jimenez,carl40@example.net,Pearson-Henson,Physiological scientist,001-905-337-0074,True,True,False,2026-03-08,2026-05-02,,29.1,Visited site · Opened email,Cold
+Geoffrey Collins,ireynolds@example.org,Kelley LLC,Dramatherapist,001-252-904-5301,False,False,True,,,2026-04-25,28.7,Filled form,Cold
+Debra Morrow,darin28@example.net,Hobbs-Brown,"Nurse, mental health",904-711-4622,True,True,False,2026-04-14,2026-04-23,,28.5,Visited site · Opened email,Cold
+Charles Kelly,martinezalexander@example.net,"Butler, Ryan and Thompson","Conservator, museum/gallery",001-238-449-0641x014,True,True,False,2026-04-19,2026-04-20,,27.9,Visited site · Opened email,Cold
+Jeffrey Bennett,greenjustin@example.org,"Porter, Cruz and Shepherd","Designer, fashion/clothing",541.485.1003,False,True,False,,2026-05-09,,27.8,Visited site,Cold
+Nathan Curtis,mcbridematthew@example.com,Pierce and Sons,Toxicologist,(681)214-2628x75385,False,True,False,,2026-05-08,,27.1,Visited site,Cold
+Stephanie Becker,wmathis@example.net,"Hunter, Sherman and Olson",Research scientist (physical sciences),001-830-706-5316x358,True,True,False,2026-04-13,2026-04-20,,26.9,Visited site · Opened email,Cold
+Kevin Ryan,schmidtamanda@example.com,Thomas-Keller,"Investment banker, operational",+1-204-233-5670x7006,False,False,True,,,2026-04-22,26.8,Filled form,Cold
+Elizabeth Salazar,pstone@example.org,"Chavez, Hudson and Johnson","Merchandiser, retail",368.903.9974,True,True,False,2026-03-29,2026-04-23,,26.2,Visited site · Opened email,Cold
+Heather Johnson,ybell@example.org,Wright and Sons,Production engineer,(244)700-6907x251,True,True,False,2026-05-12,2026-03-30,,26.2,Visited site · Opened email,Cold
+Mary Cross,bnelson@example.org,"Hernandez, Schwartz and Davis",Forensic psychologist,001-596-348-0619x00472,True,True,False,2026-03-22,2026-04-24,,25.9,Visited site · Opened email,Cold
+Patricia Williams,cynthiarowe@example.net,"Cole, Clayton and Ward",Rural practice surveyor,(731)362-4928x3371,True,True,False,2026-04-17,2026-04-15,,25.4,Visited site · Opened email,Cold
+Zachary Holt,wandagreer@example.net,Schwartz and Sons,Personal assistant,821-835-2744,True,True,False,2026-04-25,2026-04-07,,24.1,Visited site · Opened email,Cold
+Edward Perez,dallen@example.net,Dawson Ltd,Accounting technician,686.346.3046x008,True,True,False,2026-04-12,2026-04-13,,23.8,Visited site · Opened email,Cold
+Luke Anderson,cartermelinda@example.net,Jones-Peterson,Secondary school teacher,532.248.7767,False,True,False,,2026-05-01,,23.1,Visited site,Cold
+Patricia Crane,mcclainjason@example.com,Jones-Gonzales,"Engineer, civil (contracting)",001-252-379-5275x95629,True,True,False,2026-04-11,2026-04-11,,22.9,Visited site · Opened email,Cold
+Jose Garcia,robin81@example.net,"James, Moreno and Davis","Accountant, chartered certified",267-988-7489,True,True,False,2026-03-07,2026-04-20,,22.8,Visited site · Opened email,Cold
+Ronald Garner,lcurtis@example.net,"Conner, Martinez and Kemp",Barrister's clerk,(787)558-3285,True,True,False,2026-05-01,2026-03-28,,22.5,Visited site · Opened email,Cold
+James Williams,portercheryl@example.net,Cisneros-Torres,Television camera operator,215.709.2061x907,True,True,False,2026-02-25,2026-04-20,,22.1,Visited site · Opened email,Cold
+Jocelyn Hughes,joshua25@example.com,Long-Ferguson,Child psychotherapist,822-763-0950,True,True,False,2026-03-09,2026-04-18,,22.0,Visited site · Opened email,Cold
+Terry Stevens,annahale@example.com,Gallagher Ltd,"Therapist, drama",807.500.0233x32246,True,True,False,2026-03-11,2026-04-17,,21.7,Visited site · Opened email,Cold
+Keith Elliott,travisthompson@example.org,Jackson-Valencia,Clinical biochemist,+1-596-530-9439,False,True,False,,2026-04-28,,21.5,Visited site,Cold
+Mary Martinez,thomassara@example.net,Hawkins Group,Translator,+1-624-204-4492x35288,False,True,False,,2026-04-28,,21.5,Visited site,Cold
+Linda Russell,carlymartinez@example.com,"Hartman, Rodriguez and Sherman",Actor,+1-214-846-2606x238,True,True,False,2026-04-18,2026-04-02,,21.1,Visited site · Opened email,Cold
+Henry Hernandez,jason93@example.org,Reynolds Ltd,Retail merchandiser,(482)349-7634x5032,True,True,False,2026-04-16,2026-03-28,,19.3,Visited site · Opened email,Cold
+Ryan Fernandez,xburns@example.net,"Daniels, Vargas and Carter",Optometrist,618.876.0290x88383,True,True,False,2026-02-19,2026-04-14,,19.3,Visited site · Opened email,Cold
+Debra Fisher,richardcarter@example.org,Gordon and Sons,Retail manager,001-853-561-7923x87354,False,True,False,,2026-04-23,,19.2,Visited site,Cold
+Bobby Ferguson,luis96@example.net,Henderson-Reynolds,Product designer,2995499656,True,True,False,2026-03-17,2026-04-07,,18.4,Visited site · Opened email,Cold
+Brett Green,whitneybrown@example.org,"Johnston, Henderson and Payne","Surveyor, minerals",868-685-9038x7635,False,True,False,,2026-04-21,,18.3,Visited site,Cold
+Patricia Bradley,gallowaymichael@example.org,"Moreno, Bennett and Reynolds",Catering manager,526.448.1178,False,True,False,,2026-04-19,,17.5,Visited site,Cold
+Cynthia Quinn,charles12@example.org,"Ramirez, Miranda and Jefferson",Production manager,359.705.5647x99265,False,True,False,,2026-04-19,,17.5,Visited site,Cold
+Stephanie Hernandez,eric62@example.org,Harris Group,Claims inspector/assessor,546.950.7435,False,True,False,,2026-04-19,,17.5,Visited site,Cold
+Kevin Grant,donnadavis@example.org,Vasquez-Acosta,IT trainer,9956677338,True,True,False,2026-03-28,2026-03-30,,17.1,Visited site · Opened email,Cold
+Todd Ross,kylegomez@example.net,Guzman-Phillips,Ranger/warden,001-472-400-2491x623,True,True,False,2026-03-03,2026-04-04,,16.4,Visited site · Opened email,Cold
+Charles Myers,scottnathan@example.com,"Rice, Porter and Carr",Herpetologist,001-659-498-8370,True,True,False,2026-04-05,2026-03-22,,16.1,Visited site · Opened email,Cold
+Elizabeth Thomas,kelly44@example.com,Combs-Cole,Operational investment banker,232-860-8127,True,True,False,2026-04-07,2026-03-21,,16.1,Visited site · Opened email,Cold
+Tammy White DDS,tuckerangela@example.com,Lane Group,"Administrator, education",+1-325-303-1698x14615,True,True,False,2026-03-13,2026-03-31,,15.9,Visited site · Opened email,Cold
+Kerry Parker,matthewsparks@example.org,Orr PLC,"Designer, industrial/product",6456256680,False,True,False,,2026-04-14,,15.6,Visited site,Cold
+Wayne Johnson,jonathanalvarez@example.net,Hendrix Ltd,Contracting civil engineer,+1-689-397-0838,False,True,False,,2026-04-13,,15.2,Visited site,Cold
+Angela Miller,michaelhernandez@example.net,Farrell-Moore,Politician's assistant,314.939.8116x56700,True,True,False,2026-03-05,2026-03-29,,14.8,Visited site · Opened email,Cold
+John Miranda,sharon25@example.org,May and Sons,Special effects artist,+1-371-748-3882x77607,True,False,False,2026-05-18,,,14.7,Opened email,Cold
+Rachel Duarte,grahamwalter@example.com,Morales-Crawford,Further education lecturer,484-973-5733x3878,False,True,False,,2026-04-11,,14.5,Visited site,Cold
+Adam Anderson,garnerana@example.net,Wright-Fields,Mining engineer,(855)423-8780x471,False,True,False,,2026-04-08,,13.6,Visited site,Cold
+Donald Grimes,trice@example.org,Bradford-Munoz,Astronomer,001-563-362-3364x65890,False,True,False,,2026-04-07,,13.3,Visited site,Cold
+Dylan Richardson,richardbenjamin@example.com,Bradley Group,Energy engineer,001-460-306-7446,False,True,False,,2026-04-06,,13.0,Visited site,Cold
+David Mayo,fmaldonado@example.org,"Griffin, Hicks and Calderon",Actor,+1-463-813-9151x8018,False,True,False,,2026-04-05,,12.7,Visited site,Cold
+Richard Walker,iandoyle@example.com,Brown-Green,"Therapist, drama",(989)344-4886,True,False,False,2026-05-11,,,12.5,Opened email,Cold
+Ruth Price,smitchell@example.com,Graham-Wise,Geophysicist/field seismologist,(570)544-8226x586,True,False,False,2026-05-11,,,12.5,Opened email,Cold
+Barbara Alexander,donaldfernandez@example.org,"Frazier, Hensley and Munoz",Audiological scientist,+1-941-479-7216x6573,True,False,False,2026-05-10,,,12.2,Opened email,Cold
+Austin Roberts,obrienbrandon@example.com,James-Robertson,Oncologist,721.697.4495x239,True,True,False,2026-02-23,2026-03-21,,12.2,Visited site · Opened email,Cold
+Tyrone Mata,hnguyen@example.org,"Johnson, Martinez and Bray","Designer, industrial/product",845.780.0126x32955,True,False,False,2026-05-09,,,11.9,Opened email,Cold
+Jonathan Santiago,mhopkins@example.com,Hawkins Ltd,"Research officer, government",+1-780-618-7895x40530,True,False,False,2026-05-08,,,11.6,Opened email,Cold
+Dr. Kristin Jimenez,thomas71@example.net,Acosta-Vargas,Broadcast presenter,001-961-368-2165,False,True,False,,2026-03-31,,11.3,Visited site,Cold
+Kimberly Bailey,adam96@example.org,"Castillo, Obrien and Taylor","Scientist, research (physical sciences)",(591)216-5915x39835,True,False,False,2026-05-04,,,10.6,Opened email,Cold
+Amber Lopez,keyalexandra@example.net,"Nelson, Morris and Warner",Electrical engineer,(761)822-4098,False,True,False,,2026-03-27,,10.3,Visited site,Cold
+Chelsea Cook,morgan73@example.net,Mccann-Kane,Multimedia specialist,338-542-9882x59104,True,False,False,2026-05-02,,,10.1,Opened email,Cold
+Amy Mendez,jeremy76@example.org,"Davis, Valdez and Doyle","Engineer, technical sales",+1-467-706-7013x86771,False,True,False,,2026-03-25,,9.8,Visited site,Cold
+John Berry,tammy89@example.com,Patel-Young,Museum/gallery conservator,(698)387-7720x44538,True,False,False,2026-04-30,,,9.7,Opened email,Cold
+Jessica Tanner,scottgabriel@example.com,Cook-Gibson,"Sales professional, IT",(500)706-3236,False,True,False,,2026-03-24,,9.6,Visited site,Cold
+Ashley Petersen,francogabriel@example.net,Haley-Tucker,"Programmer, multimedia",(432)527-4282x13380,True,False,False,2026-04-29,,,9.4,Opened email,Cold
+Helen Williams,gilbertglenn@example.com,"Atkinson, Moore and Conner",Ecologist,001-712-461-8473x5889,True,False,False,2026-04-29,,,9.4,Opened email,Cold
+Rita Patton,ycarter@example.com,Morales Group,Intelligence analyst,402-598-3556,False,True,False,,2026-03-23,,9.4,Visited site,Cold
+Barbara Copeland,kinglaura@example.org,Mcintyre-Tucker,Building control surveyor,228.361.3267x713,True,False,False,2026-04-29,,,9.4,Opened email,Cold
+Mrs. Jennifer Brown,imiller@example.net,Dominguez LLC,Sports development officer,001-510-272-0625x78864,False,True,False,,2026-03-23,,9.4,Visited site,Cold
+Jacob Gonzales,susan77@example.net,Conway-Cox,Rural practice surveyor,+1-818-731-0777x759,True,False,False,2026-04-28,,,9.2,Opened email,Cold
+Krista Schroeder,curtisdavid@example.net,Pitts PLC,Curator,4272422169,False,True,False,,2026-03-22,,9.2,Visited site,Cold
+Sonya Ellis,nancy93@example.org,Reid Inc,"Education officer, museum",915.691.1355x48226,True,False,False,2026-04-27,,,9.0,Opened email,Cold
+Sabrina Neal,lisamyers@example.com,"Graham, Moreno and Martin","Engineer, structural",+1-589-903-3262x35503,False,True,False,,2026-03-21,,9.0,Visited site,Cold
+Kevin Miles,mark54@example.com,Dixon-Holmes,Theatre stage manager,542.700.3213x01764,True,False,False,2026-04-26,,,8.8,Opened email,Cold
+Jerry Price,katelyn66@example.com,Ayala Group,Chartered loss adjuster,678-557-2646x76643,True,False,False,2026-04-26,,,8.8,Opened email,Cold
+Jamie Johnson,wbell@example.com,"Rivera, Craig and Davis",Financial planner,+1-849-531-4782x691,False,True,False,,2026-03-20,,8.8,Visited site,Cold
+Tina Martin,srodriguez@example.net,Hamilton PLC,Toxicologist,+1-739-285-4975x77852,True,False,False,2026-04-21,,,7.9,Opened email,Cold
+Dennis Taylor,vgarcia@example.net,Wallace-Rivera,Trade union research officer,(919)913-8576,True,False,False,2026-04-17,,,7.2,Opened email,Cold
+Cynthia Thomas,youngrebecca@example.com,Robles-Nelson,"Scientist, forensic",+1-273-545-2456x500,True,False,False,2026-04-15,,,6.8,Opened email,Cold
+Holly Ball,campbellrandy@example.com,"Molina, Hernandez and Contreras",Psychiatric nurse,001-703-329-2245x86034,True,False,False,2026-04-10,,,6.1,Opened email,Cold
+Brittany Chan,bstevenson@example.org,Russo-Green,"Designer, graphic",(350)232-3800x9257,True,False,False,2026-04-04,,,5.3,Opened email,Cold
+Nicole Norris,jason99@example.com,Hancock and Sons,Broadcast presenter,(201)960-3597,True,False,False,2026-04-04,,,5.3,Opened email,Cold
+Kenneth Sullivan,qgross@example.com,"Green, Moran and Hubbard",Tax inspector,(239)349-9941x8469,True,False,False,2026-04-01,,,4.9,Opened email,Cold
+William Williams,yjones@example.com,Fernandez PLC,"Horticulturist, amenity",001-658-410-7456x561,True,False,False,2026-03-31,,,4.8,Opened email,Cold
+Amanda Lewis,joeldavis@example.net,"Reynolds, Maldonado and Frank",Patent examiner,(490)249-3923,True,False,False,2026-03-30,,,4.7,Opened email,Cold
+Laura Rodriguez,kristicurtis@example.net,Hester-Olson,Chartered certified accountant,925.895.5057,True,False,False,2026-03-27,,,4.4,Opened email,Cold
+Lori Tran,davismatthew@example.com,"Fisher, Hill and Wu",Archivist,001-445-656-9022,True,False,False,2026-03-26,,,4.3,Opened email,Cold
+Ellen Wright,alishajohnson@example.org,Murphy Ltd,"Teacher, English as a foreign language",567.253.4923,True,False,False,2026-03-26,,,4.3,Opened email,Cold
+Rachel Smith,tiffanyjackson@example.org,Burgess and Sons,"Geneticist, molecular",332-840-6057x0856,True,False,False,2026-03-21,,,3.8,Opened email,Cold
+Kristin Ochoa,eramos@example.org,Moore and Sons,Academic librarian,712-428-0759x7300,True,False,False,2026-03-21,,,3.8,Opened email,Cold
+Kevin Roberts,taylorsteven@example.com,"House, Davis and Werner","Engineer, civil (consulting)",+1-759-760-0881x9555,True,False,False,2026-03-14,,,3.3,Opened email,Cold
+Dr. Nathaniel Huynh,mariabutler@example.net,Dunn Ltd,Chief Technology Officer,+1-241-353-8549x136,True,False,False,2026-03-10,,,3.0,Opened email,Cold
+Glenda Barker,jeremy95@example.com,"Rodriguez, Murray and Schroeder","Civil engineer, contracting",+1-871-425-5426x39502,True,False,False,2026-03-10,,,3.0,Opened email,Cold
+Brandon Salazar,hruiz@example.com,Phillips-James,"Editor, commissioning",(374)997-5321x0997,True,False,False,2026-03-11,,,3.0,Opened email,Cold
+Lisa Levy,boydamanda@example.org,Hernandez Group,Occupational therapist,001-457-824-0950x05981,True,False,False,2026-03-09,,,2.9,Opened email,Cold
+Trevor Johnson,petersonkelsey@example.org,"Shields, Watts and Ware",Clinical embryologist,426.820.2490x0654,True,False,False,2026-03-07,,,2.8,Opened email,Cold
+Charles Parker,chambershannah@example.org,"Gutierrez, Rhodes and Henderson","Surveyor, building",209.204.8774,True,False,False,2026-03-07,,,2.8,Opened email,Cold
+Fernando Medina,luis65@example.org,Hanna-Dodson,"Doctor, hospital",3056676261,True,False,False,2026-03-07,,,2.8,Opened email,Cold
+Natalie Pacheco,michellemahoney@example.com,"Hall, Brown and Romero","Administrator, local government",917.357.1001,True,False,False,2026-03-06,,,2.7,Opened email,Cold
+Rachel Lee,elizabeth92@example.com,"Lewis, Mckenzie and Aguirre","Education officer, environmental",966-998-4613x0892,True,False,False,2026-03-03,,,2.5,Opened email,Cold
+Sean Robertson,christinavaughan@example.org,Hodge-Foster,Actuary,812.225.4221x09019,True,False,False,2026-02-26,,,2.3,Opened email,Cold
+Paul Arnold,darius78@example.com,"Wiggins, Lee and Mitchell","Administrator, arts",650-864-6307x03382,True,False,False,2026-02-26,,,2.3,Opened email,Cold
+Joe Perez,leonardnorris@example.com,"Robbins, Snow and Davis",Herpetologist,(430)464-2574x9739,True,False,False,2026-02-23,,,2.1,Opened email,Cold
+Paul Patel,teresa51@example.net,Baker-Nelson,Public relations account executive,659-450-8717,True,False,False,2026-02-19,,,1.9,Opened email,Cold
+Steven Guerra,jessicaconley@example.org,"Rangel, Richmond and Long",Community development worker,001-307-616-4757x41877,True,False,False,2026-02-19,,,1.9,Opened email,Cold
+Tina Lopez,cathybowman@example.org,Hayes Inc,Recruitment consultant,689.722.2061,True,False,False,2026-02-18,,,1.9,Opened email,Cold
+Cassandra Porter,morrisonmathew@example.com,Kelly-Dunlap,"Engineer, petroleum",874.453.9046x49679,False,False,False,,,,0.0,No activity,Cold
+Danielle Gibson,logandawn@example.org,Boyd-Rios,"Radiographer, diagnostic",881.717.6103x65572,False,False,False,,,,0.0,No activity,Cold
+Kelsey Thomas,kyle23@example.org,"Russell, Maddox and Schultz","Designer, multimedia",(562)270-5695,False,False,False,,,,0.0,No activity,Cold
+Caitlin Hart,langjoel@example.com,Cox Inc,"Surveyor, hydrographic",+1-948-912-9924x075,False,False,False,,,,0.0,No activity,Cold
+Karla Hall DDS,yyork@example.org,"Ayala, Anderson and Kelly",Counselling psychologist,(421)876-4301,False,False,False,,,,0.0,No activity,Cold
+Ryan Whitaker,allendouglas@example.net,Kelly Group,Cartographer,+1-331-242-9715,False,False,False,,,,0.0,No activity,Cold
+Dr. Rebecca Washington,sadams@example.org,Walker-Klein,Health promotion specialist,613.274.9653,False,False,False,,,,0.0,No activity,Cold
+Deborah Ortiz,terriowens@example.com,Melton Inc,Purchasing manager,879.348.5602x836,False,False,False,,,,0.0,No activity,Cold
+Teresa Hopkins,zjones@example.org,Cohen PLC,Media buyer,389.765.4594,False,False,False,,,,0.0,No activity,Cold
+Hector Watkins,nicholemccarthy@example.net,Sanchez Inc,"Buyer, industrial",444.370.0341x28337,False,False,False,,,,0.0,No activity,Cold
+Jeffrey Forbes,nicholassmith@example.net,Liu PLC,Psychotherapist,+1-353-381-2643x38802,False,False,False,,,,0.0,No activity,Cold
+Caleb Mccoy,lauralewis@example.net,Peterson and Sons,Geographical information systems officer,(577)381-9068,False,False,False,,,,0.0,No activity,Cold
+Andrew Walton,nguyencarrie@example.com,Owens-Martin,"Horticulturist, amenity",(993)966-0639x3963,False,False,False,,,,0.0,No activity,Cold
+Nancy Bauer,zharrell@example.net,"Rodriguez, Hill and Obrien",Community education officer,827-439-9044,False,False,False,,,,0.0,No activity,Cold
+Kathy Wells,jesuselliott@example.org,Waters-Kennedy,Veterinary surgeon,+1-399-965-0568,False,False,False,,,,0.0,No activity,Cold

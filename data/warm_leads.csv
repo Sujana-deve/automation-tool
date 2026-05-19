@@ -1,3 +1,52 @@
-name,email,opened_email,visited_site,filled_form,company,phone,score,score_reason,status
-Henry Wilson,henry@gmail.com,True,False,True,DevShop,9804567890,60,Opened email · Filled form,Warm
-James Rai,james@gmail.com,False,True,False,HimaTech,9802222222,40,Visited site,Warm
+name,email,company,job_title,phone,opened_email,visited_site,filled_form,opened_email_date,visited_site_date,filled_form_date,score,score_reason,status
+Catherine Todd,freemancatherine@example.com,Dougherty LLC,Town planner,001-810-599-9230x377,True,True,True,2026-03-12,2026-05-06,2026-04-24,68.5,Filled form · Visited site · Opened email,Warm
+Toni Young,lawrencewatson@example.net,"French, Ballard and Lopez","Education officer, environmental",879.460.7509x41754,True,True,True,2026-02-19,2026-04-09,2026-05-10,67.7,Filled form · Visited site · Opened email,Warm
+Thomas Moore,porternicholas@example.org,"Hardin, Hawkins and Spencer",Rural practice surveyor,(630)697-8848,False,True,True,,2026-05-11,2026-04-29,66.7,Filled form · Visited site,Warm
+Julie Kirk,tiffany67@example.net,Ali PLC,Food technologist,883-524-8473x2098,True,False,True,2026-05-19,,2026-05-15,66.6,Filled form · Opened email,Warm
+Scott Gonzalez,anthonymartinez@example.com,"Hughes, Moore and Anderson",Chief Executive Officer,+1-894-796-3258x4213,True,False,True,2026-05-18,,2026-05-15,66.3,Filled form · Opened email,Warm
+Nicole Garza,jacquelinestein@example.com,Evans Ltd,"Psychologist, occupational",001-345-267-5681,True,True,True,2026-04-21,2026-04-16,2026-04-28,66.0,Filled form · Visited site · Opened email,Warm
+Shawn Singh,estevenson@example.net,"Vaughn, Cook and Cooley",Insurance risk surveyor,+1-664-774-4505x091,True,True,True,2026-03-23,2026-04-09,2026-05-05,64.9,Filled form · Visited site · Opened email,Warm
+Michael Johnson,rstevens@example.net,Evans-Santiago,Social worker,893-342-9218x25603,False,True,True,,2026-04-25,2026-05-07,63.8,Filled form · Visited site,Warm
+Brianna Hunt,stanley67@example.net,"Brown, Allen and Taylor",Meteorologist,785-862-7440,False,True,True,,2026-04-11,2026-05-12,62.8,Filled form · Visited site,Warm
+Eric Barnes,jimenezfelicia@example.com,Roberts LLC,Geophysicist/field seismologist,+1-605-854-7856x8456,True,True,True,2026-03-20,2026-04-16,2026-04-29,61.9,Filled form · Visited site · Opened email,Warm
+Monica Graham,robert34@example.org,Taylor-Jones,"Engineer, energy",769-301-8763x2528,False,True,True,,2026-04-27,2026-05-02,60.3,Filled form · Visited site,Warm
+Katherine Castillo,navarrojill@example.com,Lopez PLC,Community education officer,860.857.1854x68230,True,True,True,2026-03-10,2026-04-17,2026-04-27,59.7,Filled form · Visited site · Opened email,Warm
+Brittany Vargas,sbrown@example.net,Simpson Ltd,Musician,001-397-450-5908x108,False,True,True,,2026-04-19,2026-05-04,58.1,Filled form · Visited site,Warm
+Janet Campos,caleb35@example.org,Hill-Lopez,Immigration officer,614-742-8346,True,True,True,2026-02-23,2026-03-21,2026-05-04,55.7,Filled form · Visited site · Opened email,Warm
+Paul Mason,grahamashley@example.com,Atkinson-Archer,"Lighting technician, broadcasting/film/video",(300)516-8735x8505,True,True,True,2026-03-26,2026-03-31,2026-04-27,54.8,Filled form · Visited site · Opened email,Warm
+Diana Roberson,wongcourtney@example.org,"Williams, Nichols and Martin",Neurosurgeon,517.594.8471x50414,False,True,True,,2026-05-03,2026-04-20,54.7,Filled form · Visited site,Warm
+Heather Lawrence,lbailey@example.com,Johnson-Marshall,"Pharmacist, community",9826084879,False,True,True,,2026-03-31,2026-05-07,54.1,Filled form · Visited site,Warm
+Kimberly Robertson,ihughes@example.org,"Turner, Kelley and Simmons","Buyer, retail",(587)837-7510,True,False,True,2026-05-13,,2026-05-03,52.4,Filled form · Opened email,Warm
+Matthew Shelton,uross@example.com,Walker Inc,Trade mark attorney,757-231-4537x66008,True,False,True,2026-04-01,,2026-05-12,52.2,Filled form · Opened email,Warm
+Craig Smith,carterstacey@example.com,Lucas-Evans,Recycling officer,001-979-242-3627,True,False,True,2026-03-13,,2026-05-12,50.3,Filled form · Opened email,Warm
+Erika Jackson,omckenzie@example.com,"Crawford, Lee and Johnson","Teacher, special educational needs",+1-204-709-8375x46103,True,True,False,2026-05-13,2026-05-15,,49.5,Visited site · Opened email,Warm
+Jessica Washington,amanda30@example.com,Brown-Anderson,Careers information officer,481.558.9728x427,True,True,False,2026-04-27,2026-05-19,,48.4,Visited site · Opened email,Warm
+Erica Hall,gabriellejimenez@example.org,Hunter-Henry,Housing manager/officer,908.274.5086,True,False,True,2026-05-15,,2026-04-27,48.1,Filled form · Opened email,Warm
+Robert Dunlap,dustinmueller@example.com,Mitchell PLC,Field trials officer,001-833-452-5156x3384,False,False,True,,,2026-05-17,47.7,Filled form,Warm
+James Blake,smithfrank@example.org,Callahan Inc,"Psychotherapist, child",(710)666-5956,True,True,False,2026-04-23,2026-05-19,,47.5,Visited site · Opened email,Warm
+Vanessa Thompson,cmoore@example.net,"Wilcox, Wells and Romero",Environmental manager,701.934.8704x746,True,False,True,2026-03-16,,2026-05-08,46.4,Filled form · Opened email,Warm
+Alexander Vega,eblake@example.net,Hodge Group,English as a foreign language teacher,+1-992-541-9814,True,False,True,2026-04-21,,2026-05-02,45.8,Filled form · Opened email,Warm
+Angela Schneider,annettelewis@example.org,Howard PLC,Astronomer,791.785.0574,False,True,True,,2026-03-31,2026-04-27,45.5,Filled form · Visited site,Warm
+Jeffrey Jackson,evan43@example.org,Miller-Jenkins,Medical technical officer,712-873-0375x3633,True,False,True,2026-04-03,,2026-05-04,44.6,Filled form · Opened email,Warm
+Don Moran,scott00@example.com,"Castaneda, Ray and Mooney",Tourism officer,843.270.5795,True,True,False,2026-04-06,2026-05-19,,44.6,Visited site · Opened email,Warm
+Steven Kerr,yhaynes@example.com,Mejia Group,Multimedia programmer,+1-334-362-3501x8774,True,True,True,2026-02-21,2026-03-24,2026-04-19,43.9,Filled form · Visited site · Opened email,Warm
+Steven Stephenson,lewisanthony@example.net,Conrad-Jackson,Historic buildings inspector/conservation officer,(265)642-1924,False,True,True,,2026-03-31,2026-04-24,43.3,Filled form · Visited site,Warm
+Olivia Lynn,ladams@example.net,"Mckinney, Williamson and Perry",Legal executive,905.768.9651x98406,True,True,False,2026-04-08,2026-05-17,,43.2,Visited site · Opened email,Warm
+Brett Lynch,samantha88@example.net,Ramirez Inc,Energy engineer,780-592-9560x675,True,False,True,2026-04-05,,2026-04-30,41.4,Filled form · Opened email,Warm
+Matthew Grant,thompsonkimberly@example.com,"Martin, Byrd and Parker",Marine scientist,001-692-870-7699x61894,True,False,True,2026-04-26,,2026-04-25,41.3,Filled form · Opened email,Warm
+Anne Sims,chris08@example.org,"Bryant, Manning and Campbell",Fish farm manager,385.252.5288,True,False,True,2026-04-25,,2026-04-25,41.1,Filled form · Opened email,Warm
+Jordan Davis,walkerbarry@example.net,Padilla PLC,Chartered public finance accountant,+1-515-410-2423x741,False,True,True,,2026-04-03,2026-04-19,40.8,Filled form · Visited site,Warm
+Julie Carter,craigkathryn@example.com,Huff-Hartman,Hospital pharmacist,+1-616-844-1909x10824,True,True,False,2026-05-10,2026-05-04,,40.6,Visited site · Opened email,Warm
+James Perez,haley86@example.org,Harvey-Green,Astronomer,+1-891-668-8124,True,True,False,2026-05-12,2026-05-03,,40.6,Visited site · Opened email,Warm
+Noah Dawson,brayjennifer@example.org,Miles-Warren,Regulatory affairs officer,001-606-477-0062x12748,True,True,False,2026-04-12,2026-05-12,,39.8,Visited site · Opened email,Warm
+Jeffrey Mathews,timothymckinney@example.net,Harper and Sons,Dealer,3887474287,False,True,True,,2026-03-25,2026-04-21,39.6,Filled form · Visited site,Warm
+Vicki Hicks,nbennett@example.org,Case-Hall,Risk manager,+1-986-681-7679x394,True,True,False,2026-04-26,2026-05-07,,38.9,Visited site · Opened email,Warm
+Brian Garcia,jessica43@example.com,Ruiz-Alvarado,"Designer, jewellery",823.607.7204x637,False,False,True,,,2026-05-08,38.8,Filled form,Warm
+William Torres,mitchellpatricia@example.net,"Braun, Perry and Castillo","Therapist, drama",001-375-286-6821x339,False,False,True,,,2026-05-08,38.8,Filled form,Warm
+Dr. Angela Herrera,stephanie62@example.org,Yang Group,"Designer, furniture",(796)234-0415x66041,True,True,False,2026-04-06,2026-05-11,,38.1,Visited site · Opened email,Warm
+Kylie Smith,william02@example.org,"Galvan, Tucker and Williams",Heritage manager,782.285.3165x09198,True,True,False,2026-05-18,2026-04-24,,37.7,Visited site · Opened email,Warm
+Daniel Olson,jeffrey43@example.com,"Garza, Reese and White",Database administrator,001-423-344-2080x762,True,False,True,2026-03-02,,2026-04-29,37.4,Filled form · Opened email,Warm
+Vanessa Chavez,stewartnicole@example.com,Brown-Williams,Make,675-364-9334x582,True,True,False,2026-04-26,2026-05-03,,36.3,Visited site · Opened email,Warm
+Jessica Kelly DDS,brownmatthew@example.org,"Bell, Rodriguez and Brown","Embryologist, clinical",718.691.7985x4732,True,False,True,2026-02-24,,2026-04-27,35.5,Filled form · Opened email,Warm
+Blake White,pharris@example.net,"Lester, Small and Singh",Haematologist,+1-783-400-6341x36312,True,True,False,2026-04-25,2026-05-02,,35.5,Visited site · Opened email,Warm
+Jody Barnes,christopher07@example.net,"Cowan, Walsh and Hampton","Scientist, research (maths)",+1-265-839-0894x764,False,True,False,,2026-05-19,,35.0,Visited site,Warm
