@@ -1,0 +1,41 @@
+{% extends "leads/base.html" %}
+{% block content %}
+<h1>Lead Dashboard</h1>
+<p class="sub">{{ batch.filename }} — uploaded {{ batch.uploaded_at|date:"Y-m-d H:i" }} &nbsp;·&nbsp; <a class="upload-link" href="{% url 'upload_csv' %}">Upload another CSV</a></p>
+
+<div class="summary-grid">
+    <div class="stat"><div class="num">{{ summary.total }}</div><div class="label">Total</div></div>
+    <div class="stat hot"><div class="num">{{ summary.hot }}</div><div class="label">Hot</div></div>
+    <div class="stat warm"><div class="num">{{ summary.warm }}</div><div class="label">Warm</div></div>
+    <div class="stat cold"><div class="num">{{ summary.cold }}</div><div class="label">Cold</div></div>
+    <div class="stat"><div class="num">{{ summary.avg_score }}</div><div class="label">Avg Score</div></div>
+</div>
+
+<div class="filters">
+    <a href="{% url 'dashboard' batch.id %}" class="{% if not status_filter %}active{% endif %}">All</a>
+    <a href="?status=Hot" class="{% if status_filter == 'Hot' %}active{% endif %}">Hot</a>
+    <a href="?status=Warm" class="{% if status_filter == 'Warm' %}active{% endif %}">Warm</a>
+    <a href="?status=Cold" class="{% if status_filter == 'Cold' %}active{% endif %}">Cold</a>
+</div>
+
+<div class="card">
+    {% if leads %}
+    <table>
+        <tr>
+            <th>Name</th><th>Company</th><th>Score</th><th>Status</th><th>Why</th>
+        </tr>
+        {% for lead in leads %}
+        <tr>
+            <td>{{ lead.name }}<br><span class="help">{{ lead.email }}</span></td>
+            <td>{{ lead.company }}</td>
+            <td>{{ lead.score }}</td>
+            <td><span class="badge {{ lead.status }}">{{ lead.status }}</span></td>
+            <td class="help">{{ lead.score_reason }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    <p class="empty">No leads match this filter.</p>
+    {% endif %}
+</div>
+{% endblock %}
