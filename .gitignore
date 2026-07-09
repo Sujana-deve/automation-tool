@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
-env/
+venv/
 .env
 *.egg-info/
 dist/
+db.sqlite3
+lead_dashboard.zip
