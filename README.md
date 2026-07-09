@@ -1,54 +1,50 @@
-#  Marketing Automation Pipeline
+ Lead Scoring Automation
 
-A Python automation tool that scores leads, filters them by priority,
-and generates a clean HTML report — built to simulate real-world
-sales automation workflows.
+A Python pipeline that scores sales leads based on activity, sorts them into Hot/Warm/Cold, and generates an HTML report — built to simulate a real sales automation workflow a small team could actually use.
 
-##  Features
+## Features
 
 - Reads lead data from CSV
-- Automatically scores each lead based on their activity
+- Scores each lead based on activity (email opens, site visits, form fills)
 - Labels leads as Hot, Warm, or Cold
 - Saves scored results to new CSV files
-- Generates a professional HTML report with summary cards
-- Schedules itself to run daily at 9:00 AM automatically
+- Generates an HTML report with summary cards
+- Runs automatically on a daily schedule (9:00 AM)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python 3
 - Pandas — data processing
 - Schedule — task automation
 - HTML/CSS — report generation
 
-## 📁 Project Structure
-marketing_automation_pipeline/
+## Project Structure
+automation-tool/
 │
 ├── data/
 │   ├── leads.csv          # Input leads data
 │   ├── scored_leads.csv   # All leads with scores
 │   └── hot_leads.csv      # Hot leads only
 │
-├── reports/               # Generated HTML reports
+├── reports/                # Generated HTML reports
 │
 ├── utils/
-│   ├── scorer.py          # Lead scoring logic
-│   └── reporter.py        # HTML report generator
+│   ├── scorer.py           # Lead scoring logic
+│   └── reporter.py         # HTML report generator
 │
-├── main.py                # Main pipeline runner
+├── main.py                 # Main pipeline runner
 └── README.md
 
-## ⚙️ How to Run
+## How to Run
 
 1. Clone the repository
-git clone https://github.com/YOURUSERNAME/marketing_automation_pipeline
-
+git clone https://github.com/Sujana-deve/automation-tool
 2. Install dependencies
 pip install -r requirements.txt
-
 3. Run the pipeline
 python main.py
 
-##  How Lead Scoring Works
+## How Lead Scoring Works
 
 | Activity | Points |
 |---|---|
@@ -59,10 +55,10 @@ python main.py
 
 | Score | Status |
 |---|---|
-| 70 - 100 | 🔥 Hot |
-| 40 - 69 | Warm |
-| 0 - 39 | ❄️ Cold |
+| 70–100 | Hot |
+| 40–69 | Warm |
+| 0–39 | Cold |
 
-## 👩‍💻 Author
-Sujana sharma
+## Author
 
+Sujana Sharma
